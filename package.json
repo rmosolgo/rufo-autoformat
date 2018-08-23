@@ -1,0 +1,17 @@
+{
+  "name": "rufo-autoformat",
+  "main": "./lib/rufo-autoformat",
+  "version": "0.1.0",
+  "description": "Atom autoformating for Ruby by Rufo, the Ruby Formatter",
+  "keywords": ["ruby", "formatting", "autoformat", "rufo"],
+  "activationCommands": {
+    "atom-workspace": "rufo-autoformat:format",
+    "atom-text-editor": "core:save"
+  },
+  "repository": "https://github.com/rmosolgo/rufo-autoformat",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
